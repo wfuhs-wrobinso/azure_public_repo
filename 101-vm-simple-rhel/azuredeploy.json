@@ -48,7 +48,7 @@
     "imageSku": "7.2",
     "nicName": "[concat(uniquestring(parameters('vmName')), '-nic')]",
     "addressPrefix": "10.0.0.0/16",
-    "subnetName": "-Subnet",
+    "subnetName": "Subnet",
     "subnetPrefix": "10.0.0.0/24",
     "publicIPAddressName": "[concat(uniquestring(parameters('vmName')), '-publicip')]",
     "publicIPAddressType": "Dynamic",
