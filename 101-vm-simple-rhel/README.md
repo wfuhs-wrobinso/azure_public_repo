@@ -9,10 +9,10 @@
 <IMG SRC="https://azurequickstartsservice.blob.core.windows.net/badges/101-vm-simple-rhel/BestPracticeResult.svg" />&nbsp;
 <IMG SRC="https://azurequickstartsservice.blob.core.windows.net/badges/101-vm-simple-rhel/CredScanResult.svg" />&nbsp;
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fwfuhs-wrobinso%2Fazure_repo%2Fmaster%2F101-vm-simple-rhel%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fwfuhs-wrobinso%2Fazure_public_repo%2Fmaster%2F101-vm-simple-rhel%2Fazuredeploy.json" target="_blank">
     <img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png"/>
 </a>
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fwfuhs-wrobinso%2Fazure_repo%2Fmaster%2F101-vm-simple-rhel%2Fazuredeploy.json" target="_blank">
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fwfuhs-wrobinso%2Fazure_public_repo%2Fmaster%2F101-vm-simple-rhel%2Fazuredeploy.json" target="_blank">
 
 This template allows deploying a Red Hat Enterprise Linux VM (RHEL 7.2 or RHEL 6.7), using the latest image for the selected RHEL version. This will deploy a Standard D1 VM in the location of your chosen resource group with an additional 100 GiB data disk attached to the VM.
 
