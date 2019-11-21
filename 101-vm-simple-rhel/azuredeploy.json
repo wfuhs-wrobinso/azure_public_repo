@@ -9,7 +9,7 @@
         "description": "User name for the Virtual Machine."
       }
     },
-    "vmBaseName": {
+    "vmName": {
       "type": "string",
       "metadata": {
         "description": "Base name for the Virtual Machine."
@@ -41,20 +41,20 @@
     }
   },
   "variables": {
-    "dataDisk1Name": "[concat(uniquestring(parameters('vmName')), 'datadisk1')]",
-    "dataDisk2Name": "[concat(uniquestring(parameters('vmName')), 'datadisk2')]",
+    "dataDisk1Name": "[concat(uniquestring(parameters('vmName')), '-datadisk1')]",
+    "dataDisk2Name": "[concat(uniquestring(parameters('vmName')), '-datadisk2')]",
     "imagePublisher": "RedHat",
     "imageOffer": "RHEL",
     "imageSku": "7.2",
-    "nicName": "[concat(uniquestring(parameters('vmName')), 'nic')]",
+    "nicName": "[concat(uniquestring(parameters('vmName')), '-nic')]",
     "addressPrefix": "10.0.0.0/16",
     "subnetName": "Subnet",
     "subnetPrefix": "10.0.0.0/24",
-    "publicIPAddressName": "[concat(uniquestring(parameters('vmName')), 'publicip')]",
+    "publicIPAddressName": "[concat(uniquestring(parameters('vmName')), '-publicip')]",
     "publicIPAddressType": "Dynamic",
     "vmSize": "Standard_A2",
-    "virtualNetworkName": "[concat(uniquestring(parameters('vmName')), 'vnet')]",
-    "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]",
+    "virtualNetworkName": "[concat(uniquestring(parameters('vmName')), '-vnet')]",
+    "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('-subnetName'))]",
     "linuxConfiguration": {
       "disablePasswordAuthentication": true,
       "ssh": {
