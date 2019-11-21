@@ -9,7 +9,7 @@
         "description": "User name for the Virtual Machine."
       }
     },
-    "vmNameBase": {
+    "vmBaseName": {
       "type": "string",
       "metadata": {
         "description": "Base name for the Virtual Machine."
