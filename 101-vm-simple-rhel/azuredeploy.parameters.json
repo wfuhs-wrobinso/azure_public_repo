@@ -5,9 +5,6 @@
     "adminUsername": {
       "value": "wrobinso"
     },
-    "vmName": {
-      "value": "GEN-UNIQUE-10"
-    },
     "adminPasswordOrKey": {
       "value": "GEN-SSH-PUB-KEY"
     }
