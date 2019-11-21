@@ -12,7 +12,7 @@
     "vmName": {
       "type": "string",
       "metadata": {
-        "description": "Base name for the Virtual Machine."
+        "description": "Name for the Virtual Machine."
       }
     },
     "location": {
