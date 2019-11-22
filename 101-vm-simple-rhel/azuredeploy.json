@@ -152,11 +152,9 @@
           "linuxConfiguration": "[if(equals(parameters('authenticationType'), 'password'), json('null'), variables('linuxConfiguration'))]"
         },
         "storageProfile": {
-          "imageReference": {
-            "publisher": "[variables('imagePublisher')]",
-            "offer": "[variables('imageOffer')]",
-            "sku": "[variables('imageSku')]",
-            "version": "latest"
+            "imageReference": {
+                        "id": "/subscriptions/ec910e69-093a-42bd-95ba-6fc839b8969f/resourceGroups/TestDev_ITS_wrobinso/providers/Microsoft.Compute/images/rhel77gold"
+                    }
           },
           "dataDisks": [
             {
