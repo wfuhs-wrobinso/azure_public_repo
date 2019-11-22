@@ -41,8 +41,8 @@
     }
   },
   "variables": {
-    "dataDisk1Name": "[concat(uniquestring(parameters('vmName')), '-datadisk1')]",
-    "dataDisk2Name": "[concat(uniquestring(parameters('vmName')), '-datadisk2')]",
+    "dataDisk1Name": "[concat(parameters('vmName'), '-datadisk1')]",
+    "dataDisk2Name": "[concat(parameters('vmName'), '-datadisk2')]",
     "imagePublisher": "RedHat",
     "imageOffer": "RHEL",
     "imageSku": "7.2",
